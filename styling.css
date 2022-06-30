@@ -1,0 +1,87 @@
+body{
+    font-family:monospace;
+}
+
+/*navigation*/
+.navigation a{
+float: left;
+color:#fff;
+background-color: black;
+text-align: center;
+padding: 14px 14px;
+text-decoration: none;
+font-size:10px;
+font-family: cursive;
+border-radius:10px;
+}
+.navigation{
+    width: 100%;
+    height:auto;
+    background-color:rgb(226, 13, 13);
+    position: sticky;
+}
+.navigation a.active{
+    background-color:rgb(104, 104, 199);
+    color: black;
+}
+.navigation a:hover{
+    background-color: white;
+    color:black;
+    border-radius:10px;
+    border-style:groove;
+}
+.products{
+background-color: burlywood;
+margin: 10px;
+padding-left:30px;
+padding-right: 30px;
+padding-top: 30px;
+}
+.image{
+    float: left;
+  width: 400px;
+  height: 300px;
+  background: #dacdcd;
+  
+}
+.image img{
+    width:200px;
+    height: 200px;
+}
+div.product1{
+    width: 810px;
+   height: auto;
+   justify-items: center;
+   padding-left:20%;
+}
+.product1{
+    border:5px solid green;
+    margin-right:50px;
+    margin-left: 50px;
+    justify-items: center;
+    padding-left:20%;
+    border:5px solid black;
+}
+.product2{
+    margin-right:0px;
+    float: right; 
+   height: auto;
+   border:5px solid black;
+}
+h1{
+    color: chocolate;
+    text-align: center;
+    position:relative;
+    top:20px;
+}
+.header{
+position:sticky;
+background-color: rgb(64, 73, 90);
+}
+.header.navigation{
+padding-left: 50px;
+background-color: rgb(241, 12, 12);
+}
+.middle{
+    background-color: rgb(143, 165, 165);
+}

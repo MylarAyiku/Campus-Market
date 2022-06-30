@@ -1,0 +1,53 @@
+body{
+
+background-color: darkslateblue;
+}
+.card{
+    background-color: azure;
+}
+.card-header{
+    background-color: darkblue;
+}
+
+.card-content{
+    background-color: #9933CC;
+}
+.card-footer{
+    background-color:blue
+}
+.card-title{
+    color: white;
+    text-decoration: solid;
+    
+}
+.card-img{
+    width: 400px;
+    height:400px;
+}
+.d-block{
+    height: 700px;
+}
+.nav-item{
+    display:flex;
+    align-items: center;
+}
+.dropdown-menu{
+    background-color: inherit;
+    color: whitesmoke;
+}
+
+.input-bar{
+    background-color: inherit;
+    border-color:inherit;
+  
+}
+.input-wrap{
+    background-color: inherit;
+    border-radius: 2rem;
+  
+}
+.nav-link{
+    border-radius: 12rem;
+    border-style: groove;
+    border-bottom-style:ridge
+}
